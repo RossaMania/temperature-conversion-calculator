@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "temperature-conversion-calculator", "temperature-conversion-calculator\temperature-conversion-calculator.csproj", "{0BD80670-4A46-400F-B01F-F946ECC34F65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "temperature-conversion-calculator.Tests", "temperature-conversion-calculator.Tests\temperature-conversion-calculator.Tests.csproj", "{F15DFDB7-FDD7-43D0-9891-FE978AA046A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BD80670-4A46-400F-B01F-F946ECC34F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD80670-4A46-400F-B01F-F946ECC34F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD80670-4A46-400F-B01F-F946ECC34F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD80670-4A46-400F-B01F-F946ECC34F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F15DFDB7-FDD7-43D0-9891-FE978AA046A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F15DFDB7-FDD7-43D0-9891-FE978AA046A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F15DFDB7-FDD7-43D0-9891-FE978AA046A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F15DFDB7-FDD7-43D0-9891-FE978AA046A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BA0BE0D-A5E4-43DE-928F-59E58C526317}
+	EndGlobalSection
+EndGlobal
