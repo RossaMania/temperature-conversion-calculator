@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System;
+﻿using System;
 
 namespace temperature_conversion_calculator
 {
@@ -12,11 +11,15 @@ namespace temperature_conversion_calculator
             return Math.Round(celsius, 1);
         }
 
+        public static string GetTemperatureMessage(int fahrenheit)
+        {
+            decimal celsius = ConvertFahrenheitToCelsius(fahrenheit);
+            return "The temperature is " + celsius + " degrees Celsius.";
+        }
+
         public static void Main(string[] args)
         {
-            int fahrenheit = 94;
-            decimal celsius = ConvertFahrenheitToCelsius(fahrenheit);
-            Console.WriteLine("The temperature is " + celsius + " degrees Celsius.");
+            Console.WriteLine(GetTemperatureMessage(94));
         }
     }
 }
