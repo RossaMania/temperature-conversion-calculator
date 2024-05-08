@@ -10,7 +10,8 @@ namespace temperature_conversion_calculator
 
           int fahrenheit = 94;;
           decimal firstCalculation = (decimal)fahrenheit - 32;
-          decimal celsius = firstCalculation * ((decimal)5m / (decimal)9m);
+          // decimal celsius = firstCalculation * ((decimal)5m / (decimal)9m);
+          decimal celsius = firstCalculation * (5m / 9m);
 
           Console.WriteLine("The temperature is " + celsius + " degrees Celsius.");
 
